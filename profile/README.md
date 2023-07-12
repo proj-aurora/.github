@@ -16,11 +16,11 @@ https://brainworks.team
 
 ## 2. 팀 소개
 
-|  구분  | 이름  |                                                                      사진                                                                      |         Mail          |              Github              |   role    |
-|:----:|:---:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:--------------------------------:|:---------:|
+|  구분  | 이름  |                                                                      사진                                                                       |         Mail          |              Github              |   role    |
+|:----:|:---:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:--------------------------------:|:---------:|
 |  팀장  | 김진효 | <img src="https://user-images.githubusercontent.com/86733620/175867409-88daa0dd-5022-42ce-b322-2b215ce2a08e.jpg" width="100%" height="100%"/> |   admin@jinhyo.dev    |  https://github.com/jinhyo-dev   | Front-end |
-|  팀원  | 김성현 | ![KakaoTalk_Image_2023-07-13-05-15-44.png](..%2F..%2F..%2FDownloads%2FKakaoTalk_Image_2023-07-13-05-15-44.png)   |  pumdie77@gmail.com   | https://github.com/HYUN-8265 | Back-end  |
-|  팀원  | 윤서준 |   |  me@designed.network  |  https://github.com/designed-re   |   Agent   |
+|  팀원  | 김성현 |     <img src="https://cdn.discordapp.com/attachments/935776183688245341/1128796818885586994/KakaoTalk_Image_2023-07-13-05-15-44.png">         |  pumdie77@gmail.com   | https://github.com/HYUN-8265 | Back-end  |
+|  팀원  | 윤서준 |                                                                                                                                               |  me@designed.network  |  https://github.com/designed-re   |   Agent   |
 
 ## 3. 사용기술
 
@@ -88,7 +88,7 @@ Service는 Client와 Agent사이에 위치하여, 사용자가 원활하게 모�
 
 ### Architecture
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/84500352/253055366-bf156535-59d5-4b9b-bf0e-471a4e85968a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T204938Z&X-Amz-Expires=300&X-Amz-Signature=2cbded441c2f895e6f3990d16c29f98bbeef16ad4630a35d4ba2700635925203&X-Amz-SignedHeaders=host&actor_id=86733620&key_id=0&repo_id=639796611">
+![Architecture](https://github.com/proj-aurora/Aurora-Service/assets/84500352/bf156535-59d5-4b9b-bf0e-471a4e85968a)
 
 ### Agent
 
@@ -108,12 +108,12 @@ Agent는 사용자의 호스트에 설치되어 호스트의 상태를 실시간
   * ACL, AICL에서 사용했습니다, ACL에서는 Star <-> Agent에서 데이터를 주고받는데 사용했습니다. AICL에서는 Fluent-bit <-> Agent에서 데이터를 보고받는데 사용했습니다.
 
 ### 아키텍처
-<img src="https://private-user-images.githubusercontent.com/33867923/252694739-a21071e2-8973-45c7-9d1e-912717853add.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg5MTk1MzIyLCJuYmYiOjE2ODkxOTUwMjIsInBhdGgiOiIvMzM4Njc5MjMvMjUyNjk0NzM5LWEyMTA3MWUyLTg5NzMtNDVjNy05ZDFlLTkxMjcxNzg1M2FkZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDcxMlQyMDUwMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YjMxY2I1NGZkOTk2MWNiMDE1ZTkyMTBmN2ExMWU5YTgxNDM1MGI2ZjBiNzkzYzRiOTY5ZGNhZTdkMzVkMTFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.uK6N9aMTLYszrJ-_h7xa6FA3tEndvKie0UPOCCXB4Wo">
+![agent-arch](https://github.com/proj-aurora/Aurora-Agent/assets/33867923/a21071e2-8973-45c7-9d1e-912717853add)
 
 ### 흐름도
-<img src="https://private-user-images.githubusercontent.com/33867923/252724984-41f3a1a9-2a49-45a8-9bcd-d3eda8246ca8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg5MTk1MzIyLCJuYmYiOjE2ODkxOTUwMjIsInBhdGgiOiIvMzM4Njc5MjMvMjUyNzI0OTg0LTQxZjNhMWE5LTJhNDktNDVhOC05YmNkLWQzZWRhODI0NmNhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDcxMlQyMDUwMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYWUxZjcyNzlmZThhOGU5YmI2MGI1OWFlODFjZmUxYTAwZTVmZGQ2ODQ2ZTY2MTBmMzc1ZGIyZGVhMDIyZDM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.VHN0DfRILwrWlkBE1gXeako9j7MIGsGqp1JOhUP1I6Y">
+![agent-flow](https://github.com/proj-aurora/Aurora-Agent/assets/33867923/41f3a1a9-2a49-45a8-9bcd-d3eda8246ca8)
 <br/><br/>
-<img src="https://private-user-images.githubusercontent.com/33867923/252827779-9a3c2ea5-c635-455e-adc3-e41cffede6b6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg5MTk1MzIyLCJuYmYiOjE2ODkxOTUwMjIsInBhdGgiOiIvMzM4Njc5MjMvMjUyODI3Nzc5LTlhM2MyZWE1LWM2MzUtNDU1ZS1hZGMzLWU0MWNmZmVkZTZiNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDcxMlQyMDUwMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lN2E2ZTMyNjhmMzliZjM3Njg5ZTc1NjAxMTg4MDk2MjFlZjZhN2Q0ZGFjNDhiNDc3MDc2MDI1ZTI0YTBmOGY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Z9Hr7ulWELUzhRwyFxaUKnOFqzywS_wQ90P32k9QmoU">
+![image](https://github.com/proj-aurora/Aurora-Agent/assets/33867923/9a3c2ea5-c635-455e-adc3-e41cffede6b6)
 
 
 ## 6. 프로젝트 추진 결과
