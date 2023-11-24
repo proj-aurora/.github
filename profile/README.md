@@ -1,8 +1,21 @@
 # Aurora (Monitoring System) - Team Pixel
 
-## Project link
+## Project images
 
-https://brainworks.team
+### 유저 회원가입
+![ezgif com-video-to-gif-5](https://github.com/proj-aurora/.github/assets/86733620/b7472133-0933-4c28-8e34-4d361d87971b)
+
+### 팀 생성
+![ezgif com-video-to-gif](https://github.com/proj-aurora/.github/assets/86733620/556f22d7-7307-4c0e-9d27-aaffb6101973)
+
+### 팀 서버 등록
+![ezgif com-video-to-gif-2](https://github.com/proj-aurora/.github/assets/86733620/d8c051b5-ed4f-4add-8f16-0b102304041e)
+
+### 팁 서버 대시보드 및 오버뷰 페이지
+![ezgif com-video-to-gif-3](https://github.com/proj-aurora/.github/assets/86733620/f7d51051-bafc-4727-87e5-29f6bb781320)
+
+### 팀 설정 & 유저 추가 페이지
+![ezgif com-video-to-gif-4](https://github.com/proj-aurora/.github/assets/86733620/1584ed8c-6c48-46ce-8efc-a723a026fa5b)
 
 ## 1.프로젝트 개요
 
