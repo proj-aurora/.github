@@ -32,7 +32,7 @@
 |  구분  | 이름  |                                                                      사진                                                                       |         Mail          |              Github              |   role    |
 |:----:|:---:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:--------------------------------:|:---------:|
 |  팀장  | 김진효 | <img src="https://user-images.githubusercontent.com/86733620/175867409-88daa0dd-5022-42ce-b322-2b215ce2a08e.jpg" width="100%" height="100%"/> |   admin@jinhyo.dev    |  https://github.com/jinhyo-dev   | Front-end |
-|  팀원  | 김성현 |     <img src="https://cdn.discordapp.com/attachments/935776183688245341/1128796818885586994/KakaoTalk_Image_2023-07-13-05-15-44.png">         |  pumdie77@gmail.com   | https://github.com/HYUN-8265 | Back-end  |
+|  팀원  | 김성현 |     <img src="https://cdn.discordapp.com/attachments/935776183688245341/1128796818885586994/KakaoTalk_Image_2023-07-13-05-15-44.png">         |  pumdie77@gmail.com   | https://github.com/hyun8265 | Back-end  |
 |  팀원  | 윤서준 |                                                                                                                                               |  me@designed.network  |  https://github.com/designed-re   |   Agent   |
 
 ## 3. 사용기술
